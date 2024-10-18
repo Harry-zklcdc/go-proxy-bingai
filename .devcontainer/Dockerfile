@@ -4,7 +4,7 @@ USER root
 
 RUN apt-get update && apt-get install wget curl -y
 
-RUN wget https://github.com/Harry-zklcdc/go-proxy-bingai/releases/latest/download/go-proxy-bingai-linux-amd64.tar.gz -O go-proxy-bingai-linux-amd64.tar.gz && \
+RUN wget https://github.com/Harry-zklcdc/go-proxy-bingai/releases/download/nightly/go-proxy-bingai-linux-amd64.tar.gz -O go-proxy-bingai-linux-amd64.tar.gz && \
     tar -zxvf go-proxy-bingai-linux-amd64.tar.gz && \
     chmod +x go-proxy-bingai
 
